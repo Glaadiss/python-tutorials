@@ -1,0 +1,7 @@
+isort
+black
+pytest
+pytest-cov
+flake8
+coverage
+codecov
