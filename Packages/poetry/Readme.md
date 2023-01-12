@@ -10,7 +10,7 @@ poetry init
 poetry add requests
 
 # And dev only
-poetry add --group dev black 
+poetry add --group dev black
 ```
 
 ```

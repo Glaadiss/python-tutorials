@@ -27,7 +27,7 @@ conda env remove --name py310
 ```
 
 ```
-conda env create --file py310.txt 
+conda env create --file py310.txt
 ```
 
 ```

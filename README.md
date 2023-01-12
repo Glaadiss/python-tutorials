@@ -9,7 +9,7 @@ Code Repository for python tutorials and settings that you can copy & paste to y
     - [x] conda
     - [x] pipenv
     - [x] which package manager should I choose?
-    - [x] how to treat venvs
+    - [x] vens - how and why
 
 2. Before starting the code...
     - [x] linter
@@ -20,11 +20,19 @@ Code Repository for python tutorials and settings that you can copy & paste to y
     - [ ] static types
 
 3. Good practises
-    - [ ] decorators
-    - [ ] context managers
-    - [ ] functools
+    - [x] decorators
+    - [x] context managers
+    - [x] functools
+    - [ ] logging
     - [ ] types
     - [ ] helpful functions & tips
+
+4. Understanding modules & importing
+    - [ ] __init__
+    - [ ] modules as scripts
+    - [ ] relative imports
+    - [ ] why not import *?
+    - [ ] __pycache__
 
 ## Development
 - Install all required extensions `./vscode/extensions.json`

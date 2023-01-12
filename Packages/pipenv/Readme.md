@@ -15,7 +15,7 @@ pipenv --python 3.10
 # Activate shell (venv)
 pipenv shell
 
-# Or use without activating (based on current repo) 
+# Or use without activating (based on current repo)
 pipenv run python ...
 ```
 
@@ -29,7 +29,7 @@ pipenv install --dev black
 
 ```
 # listing packages and deps
-pipenv graph 
+pipenv graph
 
 # and in reverse order (e.g to resolve conflicts)
 pipenv graph --revers
@@ -44,7 +44,3 @@ pipenv update
 # Check security vulnerabilities
 pipenv check
 ```
-
-
-
-

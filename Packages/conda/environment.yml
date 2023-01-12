@@ -7,7 +7,7 @@ dependencies:
   - pandas
   - gnuplot
 
-  
+
   - pip:
       # Package that is only on PyPI
-      - sandu   
+      - sandu
