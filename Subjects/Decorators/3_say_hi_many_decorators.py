@@ -7,7 +7,7 @@ def uppercase_decorator(function):
     return wrapper
 
 
-def split_string(function):
+def with_splitting(function):
     def wrapper():
         func = function()
         splitted_string = func.split()
@@ -16,7 +16,7 @@ def split_string(function):
     return wrapper
 
 
-@split_string
+@with_splitting
 @uppercase_decorator
 def say_hi():
     return "hello there"

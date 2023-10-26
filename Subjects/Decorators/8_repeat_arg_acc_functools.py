@@ -3,7 +3,7 @@ from functools import reduce, wraps
 
 def repeat(times):
     def inner(fn):
-        @wraps(fn)
+        # @wraps(fn)
         def wrapper(*args, **kwargs):
             return [fn(*args, **kwargs) for _ in range(times)]
 
@@ -13,7 +13,7 @@ def repeat(times):
 
 
 def acc(fn):
-    @wraps(fn)
+    # @wraps(fn)
     def wrapper(*args, **kwargs):
         arr = fn(*args, **kwargs)
         return reduce(lambda a, b: a + b, arr)

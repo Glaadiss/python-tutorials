@@ -7,7 +7,7 @@ def read_numbers(name):
     print("2")
     try:
         rows = f.read().split("\n")
-        yield [int(r) for r in rows]
+        yield [int(r) for r in rows if r != ""]
         print("4")
     finally:
         print("5")

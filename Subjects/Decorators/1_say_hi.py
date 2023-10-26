@@ -1,4 +1,5 @@
-def uppercase_decorator(function):
+# decorator
+def with_uppercase(function):
     def wrapper():
         func = function()
         make_uppercase = func.upper()
@@ -7,9 +8,10 @@ def uppercase_decorator(function):
     return wrapper
 
 
+# function that we want to decorate
 def say_hi():
     return "hello there"
 
 
-say_hi_uppercased = uppercase_decorator(say_hi)
+say_hi_uppercased = with_uppercase(say_hi)
 print(say_hi_uppercased())
